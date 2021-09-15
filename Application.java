@@ -31,6 +31,8 @@ public class Application extends Frame implements WindowListener {
 		this.setVisible(true);	
 	}
 
+	setLocationRelativeTo(null);
+
 	@Override
 	public void windowActivated(WindowEvent e) {}
 
